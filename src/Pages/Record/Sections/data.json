@@ -1,0 +1,42 @@
+[
+  {
+    "image": "images/food_menu/food01.png",
+    "date": "05.21",
+    "type": "Dinner"
+  },
+  {
+    "image": "images/food_menu/food02.png",
+    "date": "05.21",
+    "type": "Dinner"
+  },
+  {
+    "image": "images/food_menu/food03.png",
+    "date": "05.21",
+    "type": "Dinner"
+  },
+  {
+    "image": "images/food_menu/food04.png",
+    "date": "05.21",
+    "type": "Dinner"
+  },
+  {
+    "image": "images/food_menu/food05.png",
+    "date": "05.20",
+    "type": "Dinner"
+  },
+  {
+    "image": "images/food_menu/food06.png",
+    "date": "05.20",
+    "type": "Dinner"
+  },
+  {
+    "image": "images/food_menu/food07.png",
+    "date": "05.20",
+    "type": "Dinner"
+  },
+  {
+    "image": "images/food_menu/food08.png",
+    "date": "05.20",
+    "type": "Dinner"
+  }
+]
