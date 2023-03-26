@@ -6,12 +6,12 @@ import { Api } from "Services";
 const reducer = {
   counter: counterReducer,
   food: foodSlice,
-  [Api.reducerPath]: Api.reducer
+  [Api.reducerPath]: Api.reducer,
 };
 export const store = configureStore({
   reducer,
   middleware: (getDefaultMiddleware) =>
-  getDefaultMiddleware().concat(Api.middleware),
+    getDefaultMiddleware().concat(Api.middleware),
 });
 
 // Infer the `RootState` and `AppDispatch` types from the store itself

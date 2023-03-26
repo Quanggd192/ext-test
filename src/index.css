@@ -8,7 +8,7 @@
   }
   .app-button {
     @apply h-[56px] leading-[56px] px-[20px] text-white text-[18px] text-center rounded-[5px] cursor-pointer;
-    background: linear-gradient(32.95deg, #FFCC21 8.75%, #FF963C 86.64%);
+    background: linear-gradient(32.95deg, #ffcc21 8.75%, #ff963c 86.64%);
   }
   .navbar {
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.160784);
@@ -18,7 +18,7 @@
     @apply px-[10px] sm:px-[20px] md:px-[100px] w-full max-w-[1300px] m-auto;
   }
   .hexagon-menu-item {
-    background: url('./assets/images/hexagon_bg.png') no-repeat center;
+    background: url("./assets/images/hexagon_bg.png") no-repeat center;
     background-size: cover;
     @apply flex w-[100px] h-[120px] sm:w-[116px] sm:h-[134px] flex-col items-center justify-center text-xl text-white cursor-pointer;
   }
@@ -26,7 +26,6 @@
     @apply md:w-[30%] w-[80%] sm:w-[47%] mb-[20px] cursor-pointer max-w-[300px] border border-solid border-[24px] border-[#FFCC21] bg-[#333] flex flex-col justify-center items-center;
   }
 }
-
 
 .mix-darken {
   mix-blend-mode: luminosity;
@@ -43,11 +42,11 @@
 
 /* Handle */
 .custom-scroll::-webkit-scrollbar-thumb {
-  background: #FFCC21;
+  background: #ffcc21;
   border-radius: 3px;
 }
 
 /* Handle on hover */
 .custom-scroll::-webkit-scrollbar-thumb:hover {
-  background: #FFCC21;
+  background: #ffcc21;
 }

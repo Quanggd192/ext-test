@@ -1,10 +1,9 @@
-
-import { useSelector, useDispatch } from 'react-redux'
-import type { RootState } from 'Redux/store'
-import { decrement, increment } from 'Redux/features/counter/counterSlice'
+import { useSelector, useDispatch } from "react-redux";
+import type { RootState } from "Redux/store";
+import { decrement, increment } from "Redux/features/counter/counterSlice";
 export default function TestCounter() {
-  const count = useSelector((state: RootState) => state.counter.value)
-  const dispatch = useDispatch()
+  const count = useSelector((state: RootState) => state.counter.value);
+  const dispatch = useDispatch();
 
   return (
     <div>
@@ -24,5 +23,5 @@ export default function TestCounter() {
         </button>
       </div>
     </div>
-  )
+  );
 }

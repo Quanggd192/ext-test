@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -8,9 +8,9 @@ import {
   Title,
   Tooltip,
   Legend,
-} from 'chart.js';
-import { Line } from 'react-chartjs-2';
-import { useGetChartDataQuery } from 'Services'
+} from "chart.js";
+import { Line } from "react-chartjs-2";
+import { useGetChartDataQuery } from "Services";
 
 ChartJS.register(
   CategoryScale,
@@ -26,18 +26,18 @@ export const options = {
   responsive: true,
   plugins: {
     legend: {
-      position: 'top' as const,
-      display: false
+      position: "top" as const,
+      display: false,
     },
     title: {
       display: false,
-      text: 'Chart.js Line Chart',
+      text: "Chart.js Line Chart",
     },
   },
   scales: {
     x: {
       grid: {
-        color: "#777777"
+        color: "#777777",
       },
       // ticks: {
       //   padding: 10,
@@ -59,8 +59,8 @@ export const options = {
 };
 
 interface Props {
-  data: any
+  data: any;
 }
-export default function LineChart({data}: Props) {
+export default function LineChart({ data }: Props) {
   return <Line options={options} data={data} />;
 }

@@ -1,5 +1,5 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
-console.log('first', process.env.REACT_APP_API_ENDPOINT)
+console.log("first", process.env.REACT_APP_API_ENDPOINT);
 // Define a service using a base URL and expected endpoints
 export const Api = createApi({
   reducerPath: "mockApi",
@@ -16,4 +16,8 @@ export const Api = createApi({
   }),
 });
 
-export const { useGetChartDataQuery, useGetListFoodQuery, useLazyGetListFoodQuery } = Api;
+export const {
+  useGetChartDataQuery,
+  useGetListFoodQuery,
+  useLazyGetListFoodQuery,
+} = Api;

@@ -6,7 +6,7 @@
       "@redux": ["redux/*"],
       "@utils": ["utils/*"],
       "@atomics": ["atomics/*"],
-      "@styles": ["styles/*"],
+      "@styles": ["styles/*"]
     }
   }
 }

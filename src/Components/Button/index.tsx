@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 interface Props {
   children: React.ReactNode;
@@ -21,7 +21,7 @@ export default function Button({
     width,
     height,
   };
- 
+
   return (
     <button
       onClick={onClick}
